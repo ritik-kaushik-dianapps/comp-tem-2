@@ -92,7 +92,8 @@
     "react-native-reanimated": "*",
     "@expo-google-fonts/space-grotesk": "*",
     "expo-localization": "*",
-    "i18n-js": "*"
+    "i18n-js": "*",
+    "react-native-safe-area-context": "*"
   },
   "workspaces": [
     "example"

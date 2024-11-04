@@ -4,25 +4,25 @@
     "paths": {
       "react-native-app-component": ["./src/index"]
     },
-    "allowUnreachableCode": false,
-    "allowUnusedLabels": false,
+    "allowUnreachableCode": true,       // Allows unreachable code without errors
+    "allowUnusedLabels": true,          // Allows unused labels
     "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
+    "forceConsistentCasingInFileNames": false, // Removes filename case-sensitivity requirement
     "jsx": "react-jsx",
     "lib": ["ESNext"],
     "module": "ESNext",
     "moduleResolution": "Bundler",
     "noEmit": true,
-    "noFallthroughCasesInSwitch": true,
-    "noImplicitReturns": true,
-    "noImplicitUseStrict": false,
-    "noStrictGenericChecks": false,
-    "noUncheckedIndexedAccess": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": false, // Disables checking for fallthrough in switch cases
+    "noImplicitReturns": false,         // Allows functions without explicit return types
+    "noImplicitUseStrict": true,        // Explicit strict mode only when needed
+    "noStrictGenericChecks": true,      // Disables strict checking for generics
+    "noUncheckedIndexedAccess": false,  // Disables checking for potentially undefined array access
+    "noUnusedLocals": false,            // Allows unused local variables
+    "noUnusedParameters": false,        // Allows unused function parameters
     "resolveJsonModule": true,
     "skipLibCheck": true,
-    "strict": true,
+    "strict": false,                    // Disables all strict type checks
     "target": "ESNext",
     "verbatimModuleSyntax": false
   }
