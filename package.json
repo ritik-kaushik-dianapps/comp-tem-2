@@ -88,7 +88,11 @@
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": "*"
+    "react-native": "*",
+    "react-native-reanimated": "*",
+    "@expo-google-fonts/space-grotesk": "*",
+    "expo-localization": "*",
+    "i18n-js": "*"
   },
   "workspaces": [
     "example"
